@@ -1,3 +1,3 @@
 export default class {
-    getData(uri: string): Promise<any>;
+    static getData(uri: string): Promise<any>;
 }

@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = __importDefault(require("cheerio"));
 const axios_1 = __importDefault(require("axios"));
 class default_1 {
-    async getData(uri) {
+    static async getData(uri) {
         if (!uri)
             throw new Error("No URI was Provided");
         try {

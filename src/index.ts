@@ -1,7 +1,7 @@
 import cheerio from "cheerio";
 import axios from "axios";
 export default class {
-  async getData(uri: string) {
+  static async getData(uri: string) {
     if (!uri) throw new Error("No URI was Provided");
     try {
       const { data: res } = await axios.get(
