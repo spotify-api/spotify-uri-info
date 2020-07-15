@@ -22,4 +22,5 @@ class default_1 {
     }
 }
 exports.default = default_1;
+module.exports = default_1
 //# sourceMappingURL=index.js.map
